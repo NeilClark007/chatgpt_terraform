@@ -1,5 +1,5 @@
 provider "aws" {
-  
+  region = "eu-west-2"
 }
 
 resource "aws_vpc" "chatgpt_test" {
@@ -7,5 +7,5 @@ resource "aws_vpc" "chatgpt_test" {
   tags = {
     Name = "chatgpt_test"
   }
-  region = "eu-west-2"
+  
 }
