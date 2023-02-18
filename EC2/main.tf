@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 resource "aws_instance" "webserver_1" {
-  ami                  = "ami-08a3711aa4b42ef29"
+  ami                  = "ami-09ee0944866c73f62"
   instance_type        = "t3.micro"
   subnet_id            = "subnet-012f73cfa61971913"
   vpc_security_group_ids = ["sg-07724b83f6a60de02"]
@@ -14,7 +14,7 @@ resource "aws_instance" "webserver_1" {
 }
 
 resource "aws_instance" "webserver_2" {
-  ami                  = "ami-08a3711aa4b42ef29"
+  ami                  = "ami-09ee0944866c73f62"
   instance_type        = "t3.micro"
   subnet_id            = "subnet-0b651cb4e87596e0b"
   vpc_security_group_ids = ["sg-07724b83f6a60de02"]
@@ -25,7 +25,7 @@ resource "aws_instance" "webserver_2" {
 }
 
 resource "aws_instance" "webserver_3" {
-  ami                  = "ami-08a3711aa4b42ef29"
+  ami                  = "ami-09ee0944866c73f62"
   instance_type        = "t3.micro"
   subnet_id            = "subnet-0703c1cfb8ed7afe1"
   vpc_security_group_ids = ["sg-07724b83f6a60de02"]
